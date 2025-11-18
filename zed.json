@@ -39,6 +39,16 @@
       "edit_predictions_disabled_in": ["comment", "string"]
     }
   },
+  "diagnostics_max_severity": "all",
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "max_severity": "all"
+    }
+  },
+  "scrollbar": {
+    "diagnostics": "all"
+  },
   "tabs": {
     "file_icons": true,
     "git_status": true,
