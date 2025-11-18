@@ -19,12 +19,6 @@
     }
   },
   {
-    "context": "BufferSearchBar",
-    "bindings": {
-      "ctrl-r": "search::ToggleReplace"
-    }
-  },
-  {
     "context": "ProjectSearchBar",
     "bindings": {
       "ctrl-shift-r": "search::ToggleReplace"
@@ -58,6 +52,12 @@
     "context": "BufferSearchBar",
     "bindings": {
       "ctrl-r": "search::ToggleReplace"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-enter": "editor::ToggleCodeActions"
     }
   }
 ]
