@@ -3,15 +3,10 @@ My Fantasy Zed   dotfiles,  Now abandon vscode and  jbide to join here!
 
 
 ```json
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "minimap": {
+    "show": "always"
+  },
   "agent": {
     "always_allow_tool_actions": true,
     "default_model": {
@@ -34,6 +29,7 @@ My Fantasy Zed   dotfiles,  Now abandon vscode and  jbide to join here!
   "autoscroll_on_clicks": true,
   "auto_signature_help": true,
   "show_signature_help_after_edits": true,
+  "inline_code_actions": true,
   "base_keymap": "VSCode",
   "buffer_font_features": {
     "calt": false
@@ -58,6 +54,7 @@ My Fantasy Zed   dotfiles,  Now abandon vscode and  jbide to join here!
     "coloring": "indent_aware"
   },
   "hover_popover_enabled": true,
+  "colorize_brackets": true,
   "inlay_hints": {
     "enabled": true,
     "show_type_hints": true,
@@ -106,6 +103,13 @@ My Fantasy Zed   dotfiles,  Now abandon vscode and  jbide to join here!
       "breadcrumbs": false
     }
   },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true,
+    "selections_menu": true,
+    "agent_review": true,
+    "code_actions": true
+  },
   "title_bar": {
     "show_branch_icon": true,
     "show_branch_name": true,
@@ -117,8 +121,13 @@ My Fantasy Zed   dotfiles,  Now abandon vscode and  jbide to join here!
   },
   "vim_mode": false,
   "project_panel": {
+    "default_width": 240.0,
     "auto_reveal_entries": true,
     "auto_fold_dirs": false
-  }
+  },
+
+  "diagnostics_max_severity": "all",
+  "lsp_document_colors": "inlay"
 }
+
 ```
